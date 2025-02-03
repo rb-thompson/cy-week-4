@@ -5,12 +5,14 @@ A Python list is an ordered, mutable collection of elements enclosed in square b
 [--> YT Tutorial](https://youtu.be/W8KRzm-HUcc)
 
 ```
+# Lists
 tasks = ['item 1', 'item 2', 'item 3']
-
 nums = [3, 1, 4, 1, 5]
 
+# Tuples
 TUPLE = ('these', 'elements', 'are', 'immutable')
 
+# Sets
 my_set = {'optimized','for', 'performance'}
 ```
 
@@ -27,5 +29,5 @@ for i in items:
 - While Loop
 ```
 while x >= y:
-    print('x is greater than or equal to y'))
+    print('x is greater than or equal to y')
 ```
