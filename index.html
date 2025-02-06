@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Color Theory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="#primary">Primary Colors</a></li>
+                <li><a href="#secondary">Secondary Colors</a></li>
+                <li><a href="#success">Success Colors</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <nav id="side-nav" aria-label="Side Navigation">
+            <ul>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Exit</a></li>
+            </ul>
+        </nav>
+        <section id="content">
+            <h1 aria-label="Welcome to UI Color Theory">UI Color Theory</h1>
+            <section id="primary" aria-labelledby="primary-heading">
+                <h2 id="primary-heading">Primary Colors</h2>
+                <article>
+                    <h3>Blue</h3>
+                    <div class="color-box primary" aria-label="Blue color example">
+                        <p>Blue is often used for links and primary actions.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section id="secondary" aria-labelledby="secondary-heading">
+                <h2 id="secondary-heading">Secondary Colors</h2>
+                <article>
+                    <h3>Gray</h3>
+                    <div class="color-box secondary" aria-label="Gray color example">
+                        <p>Gray serves as a neutral background or for secondary buttons.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section id="success" aria-labelledby="success-heading">
+                <h2 id="success-heading">Success Colors</h2>
+                <article>
+                    <h3>Green</h3>
+                    <div class="color-box success" aria-label="Green color example">
+                        <p>Green indicates success, like confirmations or positive feedback.</p>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 UI Color Theory</p>
+    </footer>
+</body>
+</html>
